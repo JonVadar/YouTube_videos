@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(237, 234, 226);
+    color: rgb(39, 40, 41);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.input-wrapper {
+    width: 400px;
+    position: relative;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 20px 50px 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(39, 40, 41, 0.6);
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.input-wrapper span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    padding: 10px;
+    color: rgba(39, 40, 41, 0.6);
+    pointer-events: none;
+    transition: all 0.4s ease;
+}
+
+.input-wrapper button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-size: 2rem;
+    color: rgba(39, 40, 41, 0.6);
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.input-wrapper input:focus, 
+.input-wrapper input:valid {
+    outline: 2px solid rgba(101, 40, 247, 0.6);
+}
+
+.input-wrapper input:focus ~ span,
+.input-wrapper input:valid ~ span,
+.input-wrapper input:not(:placeholder-shown) ~ span {
+    transform: translateY(-33px);
+    font-size: 0.8rem;
+    color: rgba(101, 40, 247, 0.6);
+}
+
+.input-wrapper input:focus ~ button,
+.input-wrapper input:valid ~ button {
+    color: rgba(101, 40, 247, 0.6);
+}
+
