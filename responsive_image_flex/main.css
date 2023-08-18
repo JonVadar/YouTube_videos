@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 85vh;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  flex: 0.2;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: all 0.4s ease;
+}
+
+.card .bg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+input[type="radio"]:checked + .card {
+  flex: 4;
+}
+
+input[type="radio"]:checked + .card .bg {
+  animation: zoom 80s infinite;
+}
+
+input[type="radio"]:checked + .card .title {
+  animation: textAnim 0.6s ease-in-out 0.5s forwards;
+}
+
+.card .title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 100px 50px 50px 50px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+  opacity: 0;
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+width: 100%;
+}
+
+.card .title div h3 {
+  font-size: 1.5rem;
+  margin-bottom: .8rem;
+}
+
+.card .title .logo {
+  border-radius: 100%;
+  width: 100px;
+}
+
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes textAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
