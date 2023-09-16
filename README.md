@@ -6,6 +6,8 @@ Thanks for visiting this repo 😀
 
 - Let's learn HTML fundamentals under an hour in 2023 👉 [Watch on YouTube](https://youtu.be/n3IKAOPwOxw?si=IJFHOjB4a6YZCbD9)
 - Let's learn all about HTML FORMS in 2023 👉 [Watch on YouTube](https://youtu.be/FcCM6J1ATUk?si=gM7J9nDhGpjnDo6S)
+- Let's learn CSS basics under an hour in 2023 👉 [Watch on YouTube](https://youtu.be/KyadRN-xe14?si=m0Ok1ksF0zeCg3ps)
+- Let's learn the BEST CSS FRAMEWORK, Tailwind CSS in 2023 👉 [Watch on YouTube](https://youtu.be/mOP7e0aqmgk?si=HUyI-fqiMRMYUz5l)
 
 ## Series 2: Tips & Tricks
 
@@ -14,3 +16,4 @@ Thanks for visiting this repo 😀
 - EASIEST Click Outside function to close menu with HTML, CSS, JavaScript 👉 [Watch on YouTube](https://youtu.be/w-SpaTBf-j0?si=aej-72XTvW_xcYvY)
 - Cool Custom Upload Button with HTML, CSS, JavaScript 👉 [Watch on YouTube](https://youtu.be/bbFPXE2t0LQ?si=Zw_sMt9SxsY3sz3t)
 - SIMPLE & MODERN mobile hamburger menu with HTML, CSS & JavaScript 👉 [Watch on YouTube](https://youtu.be/xcyfjHhMt28?si=H562ipmb9e3iXpQt)
+- JS Image Sliders EXPLAINED IN DETAIL with HTML, CSS & JavaScript - No Library 👉 [Watch on YouTube](https://youtu.be/EhaKVu_3ikI?si=P6MCmnxAwN8yOsIQ)
