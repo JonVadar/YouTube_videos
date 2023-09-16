@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Image Switcher</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Slides -->
+        <div class="slides">
+            <div class="shown" style="background-image: url('./imgs/1.png');"></div>
+            <div style="background-image: url('./imgs/2.png');"></div>
+            <div style="background-image: url('./imgs/3.png');"></div>
+            <div style="background-image: url('./imgs/4.png');"></div>
+            <div style="background-image: url('./imgs/5.png');"></div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="btns">
+            <button id="prev"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg></button>
+            <button id="next"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></button>
+        </div>
+
+        <!-- Dots -->
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
