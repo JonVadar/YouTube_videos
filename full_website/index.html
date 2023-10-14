@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="your website description" />
+    <meta name="keywords" content="your website keywords" />
+
+    <meta property="og:title" content="My website" />
+    <meta property="og:url" content="site url" />
+    <meta property="og:image" content="logo url" />
+    <!-- Links -->
+    <link rel="stylesheet" href="./css/build.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Scripts -->
+    <script src="./js/navigation.js" defer></script>
+    <script src="./js/themes.js" defer></script>
+    <script src="./js/yt.js" defer></script>
+    <!-- Title -->
+    <title>Website</title>
+  </head>
+  <body
+    class="max-w-screen-xl mx-auto text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100"
+  >
+    <!-- Background -->
+    <div class="bg-pattern fixed inset-0 -z-50 dark:bg-pattern-dark"></div>
+    <!-- Navigation -->
+    <nav id="navigation" class="fixed top-0 inset-x-0 my-transition p-4">
+      <!-- nav backdrop -->
+      <div
+        id="nav-backdrop"
+        class="fixed inset-0 bg-zinc-900/20 backdrop-blur-sm z-40 md:hidden opacity-0 invisible my-transition delay-75"
+      ></div>
+      <!-- nav bar -->
+      <div
+        class="px-6 py-4 flex items-center justify-between max-w-screen-xl mx-auto bg-zinc-100/40 backdrop-blur-sm rounded-3xl dark:bg-zinc-600/40"
+      >
+        <a href="#top" class="block h-10 w-10 rounded-full overflow-hidden"
+          ><img src="./logo.webp" alt="logo" width="100"
+        /></a>
+        <div class="flex items-center gap-6">
+          <!-- desktop nav items -->
+          <div
+            class="hidden md:flex items-center card gap-10 px-6 h-10 font-medium"
+          >
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#coding" class="nav-link">Coding</a>
+            <a href="#gaming" class="nav-link">Gaming</a>
+            <a href="#about me" class="nav-link">About me</a>
+          </div>
+          <!-- mobile nav btn -->
+          <button
+            id="nav-opener"
+            class="h-10 px-6 card font-medium hover:text-sky-500 md:hidden"
+          >
+            Menu
+          </button>
+          <!-- theme switcher -->
+          <button
+            id="theme-switcher"
+            class="h-10 w-10 card grid place-items-center group"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="my-svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM22 12h1M12 2V1M12 23v-1M20 20l-1-1M20 4l-1 1M4 20l1-1M4 4l1 1M1 12h1"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- mobile nav container -->
+      <div
+        id="mobile-nav-container"
+        class="card p-4 fixed inset-x-6 top-3 z-50 md:hidden opacity-0 invisible my-transition"
+      >
+        <div
+          class="flex items-center justify-between pb-2 mb-2 border-b border-zinc-900/5 dark:border-zinc-100/5"
+        >
+          <small class="text-zinc-600 text-xs py-2 dark:text-zinc-400"
+            >Navigation</small
+          >
+          <button id="nav-closer" class="group py-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="my-svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6.758 17.243 12.001 12m5.243-5.243L12 12m0 0L6.758 6.757M12.001 12l5.243 5.243"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="flex flex-col gap-4 font-medium">
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+          <a href="#coding" class="nav-link">Coding</a>
+          <a href="#gaming" class="nav-link">Gaming</a>
+          <a href="#about me" class="nav-link">About me</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main class="pt-20 px-6">
+      <!-- Hero -->
+      <section id="top" class="py-24">
+        <h3 class="my-heading">JonVadar</h3>
+        <h1 class="text-6xl font-black">Web Developer<br />Gamer</h1>
+      </section>
+      <!-- Portfolio -->
+      <section id="portfolio" class="py-24">
+        <h3 class="my-heading mb-6">Portfolio</h3>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="card py-8 px-4">
+            <h4 class="text-xl font-semibold mb-4">This is the title</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+              sed sint esse nam tenetur omnis.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              rel="external"
+              class="block mt-6 w-max ring-1 ring-zinc-900 dark:ring-zinc-100 px-6 py-1 rounded-lg hover:text-sky-500 hover:ring-sky-500 dark:hover:ring-sky-500"
+              >Visit</a
+            >
+          </div>
+          <div class="card py-8 px-4">
+            <h4 class="text-xl font-semibold mb-4">This is the title</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+              sed sint esse nam tenetur omnis.
+            </p>
+            <a
+              href="#"
+              target="_blank"
+              rel="external"
+              class="block mt-6 w-max ring-1 ring-zinc-900 dark:ring-zinc-100 px-6 py-1 rounded-lg hover:text-sky-500 hover:ring-sky-500 dark:hover:ring-sky-500"
+              >Visit</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="separators"></div>
+      <!-- Coding -->
+      <section id="coding" class="py-24">
+        <div class="flex items-center gap-6 mb-6">
+          <h3 class="my-heading mb-2">Coding videos</h3>
+          <svg
+            id="coding-loader"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            class="my-svg animate-spin hidden"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 14v4.4a.6.6 0 0 0 .6.6H10M19 14v4.4a.6.6 0 0 1-.6.6H14M14 5h4.4a.6.6 0 0 1 .6.6V10M4 10V5.6a.6.6 0 0 1 .6-.6H10M14 19v1a2 2 0 1 1-4 0v-1M4 10h1a2 2 0 1 1 0 4H4M19 10h1a2 2 0 1 1 0 4h-1M14 5V4a2 2 0 1 0-4 0v1"
+            ></path>
+          </svg>
+        </div>
+        <div
+          id="coding-container"
+          class="grid sm:grid-cols-2 md:grid-cols-3 gap-6"
+        ></div>
+      </section>
+      <div class="separators"></div>
+      <!-- Gaming -->
+      <div class="separators"></div>
+      <section id="gaming" class="py-24">
+        <div class="flex items-center gap-6 mb-6">
+          <h3 class="my-heading mb-2">Gaming videos</h3>
+          <svg
+            id="gaming-loader"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            class="my-svg animate-spin hidden"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 14v4.4a.6.6 0 0 0 .6.6H10M19 14v4.4a.6.6 0 0 1-.6.6H14M14 5h4.4a.6.6 0 0 1 .6.6V10M4 10V5.6a.6.6 0 0 1 .6-.6H10M14 19v1a2 2 0 1 1-4 0v-1M4 10h1a2 2 0 1 1 0 4H4M19 10h1a2 2 0 1 1 0 4h-1M14 5V4a2 2 0 1 0-4 0v1"
+            ></path>
+          </svg>
+        </div>
+        <div
+          id="gaming-container"
+          class="grid sm:grid-cols-2 md:grid-cols-3 gap-6"
+        ></div>
+      </section>
+      <div class="separators"></div>
+      <!-- About me -->
+      <section id="about" class="py-24">
+        <h3 class="my-heading mb-6">About me</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius autem
+          deserunt dicta quibusdam optio, similique impedit quasi sequi repellat
+          libero recusandae ducimus quos. Deserunt nobis vero unde dolorum sint.
+          Et nemo optio culpa suscipit cumque at exercitationem delectus, animi
+          repudiandae sunt velit. Debitis animi totam, corrupti sequi amet
+          deleniti ipsa?
+        </p>
+        <div class="flex items-center gap-6 mt-8">
+          <a href="#" class="h-10 w-10 card grid place-items-center group">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="my-svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 6 10 18.5M6.5 8.5 3 12l3.5 3.5M17.5 8.5 21 12l-3.5 3.5"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="#" class="h-10 w-10 card grid place-items-center group">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              class="my-svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM16 16a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+              ></path>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.5 17.5c2.5 3.5 6.449.915 5.5-2.5-1.425-5.129-2.2-7.984-2.603-9.492A2.032 2.032 0 0 0 18.438 4H5.562c-.918 0-1.718.625-1.941 1.515C2.78 8.863 2.033 11.802 1.144 15c-.948 3.415 3 6 5.5 2.5M18 8.5l.011.01M16.49 7l.011.01M16.49 10l.011.01M15 8.5l.011.01M7 7v3M5.5 8.5h3"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="py-12 flex items-center justify-between px-6">
+      <p>Your domain</p>
+      <small class="text-zinc-400"
+        >&copy; 2023 My Website. All rights reserved.</small
+      >
+    </footer>
+  </body>
+</html>
