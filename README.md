@@ -8,7 +8,8 @@ Thanks for visiting this repo 😀
 - Let's learn all about HTML FORMS in 2023 👉 [Watch on YouTube](https://youtu.be/FcCM6J1ATUk?si=gM7J9nDhGpjnDo6S)
 - Let's learn CSS basics under an hour in 2023 👉 [Watch on YouTube](https://youtu.be/KyadRN-xe14?si=m0Ok1ksF0zeCg3ps)
 - Let's learn the BEST CSS FRAMEWORK, Tailwind CSS in 2023 👉 [Watch on YouTube](https://youtu.be/mOP7e0aqmgk?si=HUyI-fqiMRMYUz5l)
-- Let's learn JAVASCRIPT basics in 2023. (Web Developer Path) 👉 [Watch on YouTube](https://youtu.be/YoVO4-bN3HY?si=JO5lpLPeJQ59vX3d)
+- Let's learn JAVASCRIPT basics in 2023. 👉 [Watch on YouTube](https://youtu.be/YoVO4-bN3HY?si=JO5lpLPeJQ59vX3d)
+- Let's learn some ADVANCE JAVASCRIPT | ES6 features in 2023. 👉 [Watch on YouTube](https://www.youtube.com/watch?v=_7gWP_3-7AQ)
 
 ## Series 2: Tips & Tricks
 
