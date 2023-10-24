@@ -78,7 +78,7 @@ console.dir(Array.from([1, 2, 3, 4], (i) => i * 2)); // [2, 4, 6, 8]
 console.log(Object.keys([1,2,3])); // ['0', '1', '2']
 console.log(Object.keys(cars[0])); // ['make', 'model', 'year']
 
-// ENTRIES - returns an array of a given object's own enumerable string-keyed property key-value pairs.
+// ENTRIES - returns an array of a given object's own enumerable string-keyed property key-value pairs. Each key-value pair is an array with two elements: the first element is the property key (which is always a string), and the second element is the property value.
 console.log(Object.entries(cars[0])); // [["make", "Ford"], ["model", "Econoline E150"], ["year", 1995]];
 console.log(Object.entries([1, 2, 3])); // [["0", 1], ["1", 2], ["2", 3]];
 
