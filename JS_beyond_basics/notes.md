@@ -1,6 +1,6 @@
 # JavaScript Beyond Basics
 
-Watch the video here 👉 (ADVANCE JAVASCRIPT | ES6 features)[https://www.youtube.com/watch?v=_7gWP_3-7AQ]
+Watch the video here 👉 [ADVANCE JAVASCRIPT | ES6 features](https://www.youtube.com/watch?v=_7gWP_3-7AQ)
 
 <br><br>
 
