@@ -10,6 +10,7 @@ Thanks for visiting this repo 😀
 - Let's learn the BEST CSS FRAMEWORK, Tailwind CSS in 2023 👉 [Watch on YouTube](https://youtu.be/mOP7e0aqmgk?si=HUyI-fqiMRMYUz5l)
 - Let's learn JAVASCRIPT basics in 2023. 👉 [Watch on YouTube](https://youtu.be/YoVO4-bN3HY?si=JO5lpLPeJQ59vX3d)
 - Let's learn some ADVANCE JAVASCRIPT | ES6 features in 2023. 👉 [Watch on YouTube](https://www.youtube.com/watch?v=_7gWP_3-7AQ)
+- Let's learn VUE JS 3 | Options API in 2023 (Web Developer Path) 👉 [Watch on YouTube](https://youtu.be/MJvyMXjVy4s?si=4fmS3AgwFboPdeiX)
 
 ## Series 2: Tips & Tricks
 
