@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue.js</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <!-- Root application -->
+    <div id="app">
+      <!-- User Create -->
+      <user-create @add="add"></user-create>
+
+      <!-- Users List -->
+      <user-list :users="users" ></user-list>
+
+      <!-- The Watcher -->
+      <the-watcher></the-watcher>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="./App.js"></script>
+  </body>
+</html>
