@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    html {
+        scroll-behavior: smooth;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card {
+        @apply rounded-3xl shadow-lg shadow-zinc-900/5 bg-zinc-100 ring-1 ring-zinc-900/5 dark:bg-zinc-800;
+    }
+
+    .nav-link {
+        @apply py-2 hover:text-sky-500;
+    }
+
+    .my-svg {
+        @apply fill-none stroke-2 stroke-zinc-900 w-6 h-auto group-hover:stroke-sky-500 dark:stroke-zinc-100;
+    }
+
+    .my-transition {
+        @apply transition-all duration-300 ease-in-out;
+    }
+
+    .my-heading {
+        @apply text-4xl text-zinc-700 font-bold dark:text-zinc-300;
+    }
+
+    .bg-pattern {
+        background-image: radial-gradient(rgba(15,23,42,0.1) 1.5px, transparent 0px), radial-gradient(rgba(15,23,42,0.1) 1.5px, transparent 0px);
+        background-size: 30px 30px;
+        background-position: 0 0, 15px 15px;
+        background-color: #f4f4f5;
+    }
+    .bg-pattern-dark {
+        background-image: radial-gradient(rgba(255,255,255,0.1) 1.5px, transparent 0px), radial-gradient(rgba(255,255,255,0.1) 1.5px, transparent 0px);
+        background-size: 30px 30px;
+        background-position: 0 0, 15px 15px;
+        background-color: #18181b;
+    }
+
+    .separators {
+        @apply w-full h-px bg-gradient-to-r from-zinc-100/0 via-zinc-900/40 to-zinc-100/0 dark:from-zinc-100/0 dark:via-zinc-100/40 dark:to-zinc-100/0;
+    }
+}
