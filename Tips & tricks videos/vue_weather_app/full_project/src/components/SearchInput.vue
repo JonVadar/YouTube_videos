@@ -14,7 +14,7 @@ const handleSearch = () => {
   searchTerm.timeout = setTimeout(async () => {
     if (searchTerm.query !== '') {
       const res = await fetch(
-        `http://api.weatherapi.com/v1/search.json?key=a4e18e9563644ec8b46124818231311&q=${searchTerm.query}`
+        `http://api.weatherapi.com/v1/search.json?key=[YOUR_API_KEY]=${searchTerm.query}`
       )
 
       const data = await res.json()
@@ -27,7 +27,7 @@ const handleSearch = () => {
 
 const getWeather = async (id) => {
   const res = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=a4e18e9563644ec8b46124818231311&q=id:${id}&days=3&aqi=no&alerts=no`
+    `http://api.weatherapi.com/v1/forecast.json?key=[YOUR_API_KEY]=id:${id}&days=3&aqi=no&alerts=no`
   )
 
   const data = await res.json()
