@@ -51,7 +51,12 @@
         <p>UV index</p>
       </div>
     </div>
-    <!-- Last update -->
-    <h3 class="text-slate-900/50">last update: [Date & time]</h3>
+    <!-- Last update and delete -->
+    <div class="flex justify-between items-center">
+      <h3 class="text-slate-900/50">last update: {date and time]</h3>
+      <button>
+        <i class="fa-solid fa-trash"></i>
+      </button>
+    </div>
   </div>
 </template>
