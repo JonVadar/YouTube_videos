@@ -16,7 +16,7 @@
 
     <!-- current weather -->
     <div class="text-center flex-1">
-      <img :src="place.current.condition.icon" alt="icon" width="200" class="mx-auto -mb-10" />
+      <img src="" alt="icon" width="200" class="mx-auto -mb-10" />
       <h1 class="text-9xl mb-2">[Weather Temp]</h1>
       <p class="text-2xl">[Weather condition]</p>
     </div>
