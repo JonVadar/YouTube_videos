@@ -1,7 +1,7 @@
 # weather-app
 
 ## Watch the video 👇
-[![Let's build a weather app with VUE.JS, TAILWIND CSS and Weather API](https://i3.ytimg.com/vi/kRetyHCmPUs/maxresdefault.jpg)
+[Let's build a weather app with VUE.JS, TAILWIND CSS and Weather API](https://i3.ytimg.com/vi/kRetyHCmPUs/maxresdefault.jpg)
 
 ## Recommended IDE Setup
 
