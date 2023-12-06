@@ -23,4 +23,8 @@ Thanks for visiting this repo 😀
 - JS Image Sliders EXPLAINED IN DETAIL with HTML, CSS & JavaScript - No Library 👉 [Watch on YouTube](https://youtu.be/EhaKVu_3ikI?si=P6MCmnxAwN8yOsIQ)
 - How to use YouTube Data API & Fetch API to show videos on your website, with Vanilla JavaScript.  👉 [Watch on YouTube](https://youtu.be/Bzw2T18YDJ4?si=xWZk3k3BKByQaBTl)
 - Let's build a full RESPONSIVE website with LIGHT & DARK MODE using TailwindCSS & JavaScript. 👉 [Watch on YouTube](https://youtu.be/rSSS-SKBc_I?si=tHsPdpUmJm8g2eQK)
-- Let's build a weather app with VUE.JS, TAILWIND CSS and Weather API.  👉 [Watch on YouTube](https://youtu.be/kRetyHCmPUs?si=YP4eqyAsgHp0viCT)
+- Let's build a weather app with VUE.JS, TAILWIND CSS and Weather API. 👉 [Watch on YouTube](https://youtu.be/kRetyHCmPUs?si=YP4eqyAsgHp0viCT)
+
+## Series 3: MERN Stack
+
+- Let's learn REACT JS basics in 2023. 👉 [Watch on YouTube](https://youtu.be/R7TDoF7JaQA?si=cxqqqodNa3bosNcv)
