@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.videos {
+  height: 100vh;
+  width: 100vw;
+}
+
+.vdo-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.vdo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+}
+
+#pause-play-btn {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+#pause-play-btn i {
+  font-size: 5rem;
+  color: #fff;
+  animation: fade-out 0.5s forwards linear;
+}
+
+.side-btns-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 5rem;
+  padding: 2rem;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.control-btn {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.info-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.info-wrapper a img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.blury {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10rem;
+  z-index: 3;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.comments {
+  position: absolute;
+  z-index: 4;
+  left: 1rem;
+  right: 7rem;
+  bottom: 13rem;
+  background: #fff;
+  border-radius: 15px;
+  padding: 1rem;
+  padding-bottom: 10rem;
+  display: none;
+  animation: pop 0.2s forwards linear;
+}
+
+.toggle-comments {
+  display: block !important;
+}
+
+.loader {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 8rem;
+}
+
+.loader i {
+  animation: spin 1.3s infinite linear;
+}
+
+.color-switch {
+  color: blue !important;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
