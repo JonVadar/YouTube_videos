@@ -1,5 +1,7 @@
 # PHP Basics
 
+## Watch the video on youtube [here](https://youtu.be/S336mLBaVpQ?si=Nv_NvKsUDEOHALTY)
+
 ## What is PHP?
 
 PHP is an acronym for "PHP: Hypertext Preprocessor, and is a widely-used, beginners-friendly, server-side programming language. Also a powerful tool for making dynamic and interactive Web pages.
