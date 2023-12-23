@@ -13,6 +13,7 @@ Thanks for visiting this repo 😀
 - Let's learn VUE JS 3 | Options API in 2023. 👉 [Watch on YouTube](https://youtu.be/MJvyMXjVy4s?si=4fmS3AgwFboPdeiX)
 - Let's learn VUE JS | Composition API - Script Setup, Vue Router & Pinia in 2023. 👉 [Watch on YouTube](https://www.youtube.com/watch?v=WSh8iiWgOLg)
 - Let's learn PHP 8 in 2023 | Part 1 | Basics. 👉 [Watch on YouTube](https://youtu.be/S336mLBaVpQ?si=Nv_NvKsUDEOHALTY)
+- Let's learn PHP 8 in 2023 | Part 2 | Superglobals & Form Handling. 👉 [Watch on YouTube](https://youtu.be/sglj3c55VfI?si=qgdKB7irC25Urc4b)
 
 ## Series 2: Tips & Tricks
 
