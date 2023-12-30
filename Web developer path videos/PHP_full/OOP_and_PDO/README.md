@@ -2,6 +2,8 @@
 
 OOP allows us to have cleaner, more organized, more secure, and reusable code. The 2 main keywords of OOP are: `class` and `object`. Class is a blueprint for objects, and an object is an instance of a class.
 
+## [watch the video on YouTube]()
+
 ## Define a class
 
 A class is defined using the `class` keyword, followed by the name of the class and a pair of curly braces `{}`. By convention, class names start with a capital letter. **In a class, variables are called properties and functions are called methods.**
