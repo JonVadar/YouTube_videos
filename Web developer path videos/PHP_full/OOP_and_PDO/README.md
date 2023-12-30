@@ -2,7 +2,7 @@
 
 OOP allows us to have cleaner, more organized, more secure, and reusable code. The 2 main keywords of OOP are: `class` and `object`. Class is a blueprint for objects, and an object is an instance of a class.
 
-## [watch the video on YouTube]()
+## [watch the video on YouTube](https://youtu.be/VawVMUvXVjk?si=_6tT8k_MboTO_cdr)
 
 ## Define a class
 
