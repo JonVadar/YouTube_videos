@@ -31,3 +31,7 @@ Thanks for visiting this repo 😀
 ## Series 3: MERN Stack
 
 - Let's learn REACT JS basics in 2023. 👉 [Watch on YouTube](https://youtu.be/R7TDoF7JaQA?si=cxqqqodNa3bosNcv)
+
+## Series 4: React Hooks
+
+- REACT HOOKS Explained | useState (Learn React in 2024) 👉 [Watch on YouTube](https://youtu.be/gBrbZsuSYGQ)
