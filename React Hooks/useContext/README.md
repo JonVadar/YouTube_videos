@@ -1,8 +1,4 @@
-# React + Vite
+# REACT HOOKS Explained | useContext hook with two examples (Learn React in 2024) | Watch the video 👇
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![REACT HOOKS Explained | useContext hook with two examples (Learn React in 2024)](https://i3.ytimg.com/vi/hY9K6bU-wok/maxresdefault.jpg)](https://youtu.be/hY9K6bU-wok?si=LJjLPajT1BYi1jkV)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
