@@ -38,4 +38,4 @@ Thanks for visiting this repo 😀
 - REACT HOOKS Explained | useReducer hook with Forms and Objects Example (Learn React in 2024) 👉 [Watch on YouTube](https://youtu.be/a7iQWvw8WPI?si=29yAGMqr-TDelC73)
 - REACT HOOKS Explained | useContext hook with two examples (Learn React in 2024) 👉 [Watch on YouTube](https://youtu.be/hY9K6bU-wok?si=hieQqIGeCuRmEUu1)
 - REACT HOOKS Explained | useRef hook with form examples (Learn React in 2024) 👉 [Watch on YouTube](https://youtu.be/onC5kQ8a-Xk)
-
+- REACT HOOKS Explained | useEffect hook (Learn React in 2024) 👉 [Watch on YouTube](https://youtu.be/a6QlalVbv_0)
