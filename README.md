@@ -27,6 +27,7 @@ Thanks for visiting this repo 😀
 - Let's build a full RESPONSIVE website with LIGHT & DARK MODE using TailwindCSS & JavaScript. 👉 [Watch on YouTube](https://youtu.be/rSSS-SKBc_I?si=tHsPdpUmJm8g2eQK)
 - Let's build a weather app with VUE.JS, TAILWIND CSS and Weather API. 👉 [Watch on YouTube](https://youtu.be/kRetyHCmPUs?si=YP4eqyAsgHp0viCT)
 - Let's build a video player app with HTML, CSS, JAVASCRIPT (YouTube shorts clone) 👉 [Watch on YouTube](https://www.youtube.com/watch?v=oX4NCJkSCsA)
+- Let's build a component-based JAVASCRIPT app with NO FRAMEWORKS 👉 [Watch on YouTube](https://youtu.be/scFmCO3W8G8?si=oYBTP-I30AovQwlo)
 
 ## Series 3: MERN Stack
 
