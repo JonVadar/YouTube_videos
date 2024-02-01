@@ -2,6 +2,7 @@
 
 ## 👉 Install the dependencies using `npm install`
 
+## Watch the video 👇
 ## [![Watch the video here](https://i3.ytimg.com/vi/rAOuOcXz81E/maxresdefault.jpg)](https://youtu.be/rAOuOcXz81E)
 
 ## Creating a server using Node.JS
