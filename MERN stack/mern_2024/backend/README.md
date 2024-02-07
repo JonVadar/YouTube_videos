@@ -5,6 +5,9 @@
 ## Watch the video 👇
 ## [![Watch the video here](https://i3.ytimg.com/vi/rAOuOcXz81E/maxresdefault.jpg)](https://youtu.be/rAOuOcXz81E)
 
+## Watch PART 2 video 👇
+## [![Watch the video here](https://i3.ytimg.com/vi/3lbi7S26QYw/maxresdefault.jpg)](https://youtu.be/3lbi7S26QYw)
+
 ## Creating a server using Node.JS
 
 ```js
