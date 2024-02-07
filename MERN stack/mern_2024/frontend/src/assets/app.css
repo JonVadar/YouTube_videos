@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link {
+        @apply w-8 h-8 rounded-md hover:bg-indigo-600 grid place-items-center
+    }
+    .card {
+        @apply bg-white px-6 py-10 rounded-lg shadow-lg 
+    }
+    .title {
+        @apply font-bold mb-8 text-2xl
+    }
+    .input {
+        @apply block w-full rounded-md p-2 placeholder:text-sm border-0 outline-0 ring-1 ring-indigo-500 focus:ring-2 mb-4
+    }
+    .btn {
+        @apply block w-full bg-indigo-500 text-white rounded-md p-2 active:bg-indigo-600
+    }
+}
