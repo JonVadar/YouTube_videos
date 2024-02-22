@@ -34,6 +34,8 @@ Thanks for visiting this repo 😀
 - Let's learn REACT JS basics in 2023. 👉 [Watch on YouTube](https://youtu.be/R7TDoF7JaQA?si=cxqqqodNa3bosNcv)
 - Let's learn The MERN STACK in 2024 | Full CRUD API with User Authentication | Part 1: Backend. 👉 [Watch on YouTube](https://youtu.be/rAOuOcXz81E?si=_hAR6ExUouj9els3)
 - Let's learn The MERN STACK in 2024 | Full CRUD APP with User Authentication | Part 2: Frontend. 👉 [Watch on YouTube](https://youtu.be/3lbi7S26QYw?si=AXFw1OXPmEotKhbA)
+- Setup MONGO DB ATLAS for a MERN STACK app in 2024. 👉 [Watch on YouTube](https://youtu.be/jmGgTPr8Kyw?si=DjTN-jgL8-j8VOI-)
+- Deploy a MERN STACK app on Render platform in 2024. 👉 [Watch on YouTube](https://youtu.be/ZsFwpjFmpFQ?si=xaaHv45p9iemcZvI)
 
 ## Series 4: React Hooks
 
