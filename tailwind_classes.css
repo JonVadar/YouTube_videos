@@ -1,0 +1,62 @@
+/* Install TailwindCSS for these classes to work */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  header {
+    @apply bg-zinc-900 text-white shadow-lg;
+  }
+  nav {
+    @apply p-4 flex items-center justify-between mx-auto max-w-screen-lg;
+  }
+  main {
+    @apply p-4;
+  }
+  h1 {
+    @apply font-bold text-3xl mb-6;
+  }
+  input {
+    @apply block w-full p-2 rounded-md border-0 outline-0 ring-1 ring-indigo-600 focus:ring-2 ring-inset;
+  }
+  .text-btn {
+    @apply px-3 py-2 bg-indigo-600 text-white rounded-md active:bg-indigo-700 w-full block;
+  }
+  .icon-btn {
+    @apply min-h-10 min-w-10 w-10 h-10 overflow-hidden rounded-md bg-indigo-600 active:bg-indigo-700 grid place-items-center;
+  }
+  .card {
+    @apply py-10 px-8 rounded-md shadow-lg bg-white ring-1 ring-zinc-900/5;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  header {
+    @apply bg-zinc-900 text-white shadow-lg;
+  }
+  nav {
+    @apply p-4 flex items-center justify-between mx-auto max-w-screen-lg;
+  }
+  main {
+    @apply p-4;
+  }
+  h1 {
+    @apply font-bold text-3xl mb-6;
+  }
+  input {
+    @apply block w-full p-2 rounded-md border-0 outline-0 ring-1 ring-indigo-600 focus:ring-2 ring-inset;
+  }
+  .text-btn {
+    @apply px-3 py-2 bg-indigo-600 text-white rounded-md active:bg-indigo-700 w-full block;
+  }
+  .icon-btn {
+    @apply min-h-10 min-w-10 w-10 h-10 overflow-hidden rounded-md bg-indigo-600 active:bg-indigo-700 grid place-items-center;
+  }
+  .card {
+    @apply py-10 px-8 rounded-md shadow-lg bg-white ring-1 ring-zinc-900/5;
+  }
+}
