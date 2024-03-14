@@ -15,6 +15,8 @@ Thanks for visiting this repo 😀
 - Let's learn PHP 8 in 2023 | Part 1 | Basics. 👉 [Watch on YouTube](https://youtu.be/S336mLBaVpQ?si=Nv_NvKsUDEOHALTY)
 - Let's learn PHP 8 in 2023 | Part 2 | Superglobals & Form Handling. 👉 [Watch on YouTube](https://youtu.be/sglj3c55VfI?si=qgdKB7irC25Urc4b)
 - Let's learn PHP 8 in 2023 | Part 3 | Object Oriented Programming & PDO. 👉 [Watch on YouTube](https://youtu.be/VawVMUvXVjk?si=rBhIKd1eccjktRHH)
+- Let's learn LARAVEL 10 in 2024 | Part 1 | Laravel for beginners. 👉 [Watch on YouTube](https://youtu.be/9P2w-n1fPqc?si=DNsTHS6mflrXi3g4)
+
 
 ## Series 2: Tips & Tricks
 
