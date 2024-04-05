@@ -1,7 +1,6 @@
 # You can find the full playlist here 👉 [Laravel 11 playlist](https://youtube.com/playlist?list=PL38wFHH4qYZXH8Gb7PIbmyjdsWdEJLImp&si=HEImjBm2yVYk0-G4)
 
-## ⚠️ This project will be updated with the release of each video
-
+## This project will be updated with the release of each video
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 

@@ -13,7 +13,7 @@
 <body class="bg-slate-100 text-slate-900">
     <header class="bg-slate-800 shadow-lg">
         <nav>
-            <a href="{{ route('home') }}" class="nav-link">Home</a>
+            <a href="{{ route('posts.index') }}" class="nav-link">Home</a>
 
             @auth
                 <div class="relative grid place-items-center" x-data="{ open: false }">
