@@ -15,9 +15,18 @@ Route::get('/{user}/posts', [DashboardController::class, 'userPosts'])->name('po
 
 // Routes for authenticated users
 Route::middleware('auth')->group(function () {
-    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('verified')->name('dashboard');
 
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
+    // Email Verification Notice route
+    Route::get('/email/verify', [AuthController::class, 'verifyEmailNotice'])->name('verification.notice');
+
+    // Email Verification Handler route
+    Route::get('/email/verify/{id}/{hash}', [AuthController::class, 'verifyEmailHandler'])->middleware('signed')->name('verification.verify');
+
+    // Resending the Verification Email route
+    Route::post('/email/verification-notification', [AuthController::class, 'verifyEmailResend'])->middleware('throttle:6,1')->name('verification.send');
 });
 
 // Routes for guest users

@@ -57,21 +57,24 @@
     {{-- User Posts --}}
     <h2 class="font-bold mb-4">Your Latest Posts</h2>
 
+
     <div class="grid grid-cols-2 gap-6">
         @foreach ($posts as $post)
             {{-- Post card component --}}
             <x-postCard :post="$post">
 
-                {{-- Update post --}}
-                <a href="{{ route('posts.edit', $post) }}"
-                    class="bg-green-500 text-white px-2 py-1 text-xs rounded-md">Update</a>
+                <div class="flex items-center justify-end gap-4 mt-6">
+                    {{-- Update post --}}
+                    <a href="{{ route('posts.edit', $post) }}"
+                        class="bg-green-500 text-white px-2 py-1 text-xs rounded-md">Update</a>
 
-                {{-- Delete post --}}
-                <form action="{{ route('posts.destroy', $post) }}" method="post">
-                    @csrf
-                    @method('DELETE')
-                    <button class="bg-red-500 text-white px-2 py-1 text-xs rounded-md">Delete</button>
-                </form>
+                    {{-- Delete post --}}
+                    <form action="{{ route('posts.destroy', $post) }}" method="post">
+                        @csrf
+                        @method('DELETE')
+                        <button class="bg-red-500 text-white px-2 py-1 text-xs rounded-md">Delete</button>
+                    </form>
+                </div>
             </x-postCard>
         @endforeach
     </div>
