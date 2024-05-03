@@ -1,36 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+}
+
 @layer components {
-    nav {
-        @apply p-4 max-w-screen-lg mx-auto flex items-center justify-between;
-    }
-    .round-btn {
-        @apply w-8 h-8 overflow-auto rounded-full bg-slate-100 focus:outline-none focus:ring-1 focus:ring-slate-100 focus:ring-offset-2 focus:ring-offset-slate-800;
-    }
-    .nav-link {
-        @apply active:bg-slate-900 hover:bg-slate-100/10 text-slate-100 px-3 py-1 rounded-lg;
-    }
-    .title {
-        @apply text-3xl mb-4 font-bold;
-    }
-    .btn {
-        @apply bg-slate-800 active:bg-slate-900 hover:bg-slate-700 p-2 rounded-md text-white block w-full;
-    }
-    .error {
-        @apply text-xs text-red-500 mt-px;
-    }
-    .input {
-        @apply block w-full p-2 rounded-md ring-1 ring-slate-600 focus:ring-slate-900 focus:ring-2 outline-0 border-0 mt-1;
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="url"] {
+        @apply block w-full rounded-md border-0 p-2 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-500 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm;
     }
     label {
-        @apply text-sm text-slate-600;
+        @apply block text-sm font-medium leading-6 text-slate-900 first-letter:capitalize;
     }
-    .card {
-        @apply bg-white p-6 rounded-lg shadow-lg border border-slate-200;
+    header {
+        @apply bg-slate-800 shadow-md;
     }
-    .username {
-        @apply py-2 pl-4 border-b border-slate-200 text-xs text-slate-700;
+    nav {
+        @apply p-5 max-w-screen-lg mx-auto flex items-center justify-between;
+    }
+    .primary-btn {
+        @apply flex w-full justify-center rounded-md bg-blue-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:bg-slate-400 disabled:cursor-wait;
+    }
+    .text-link {
+        @apply font-semibold text-blue-500 hover:text-blue-600;
+    }
+    .nav-link {
+        @apply text-slate-200 hover:bg-slate-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium;
+    }
+    .title {
+        @apply my-6 text-center text-3xl font-bold leading-9 text-slate-900;
+    }
+    .error {
+        @apply text-xs text-red-500 ;
     }
 }
