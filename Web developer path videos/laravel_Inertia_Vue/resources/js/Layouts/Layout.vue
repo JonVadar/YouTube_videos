@@ -13,7 +13,17 @@
           >
         </div>
 
-        <div v-if="$page.props.auth.user" class="space-x-6">
+        <!-- Auth section -->
+        <div v-if="$page.props.auth.user" class="space-x-6 flex">
+          <img
+            class="avatar"
+            :src="
+              $page.props.auth.user.avatar
+                ? 'storage/' + $page.props.auth.user.avatar
+                : 'storage/avatars/default.jpeg'
+            "
+            alt=""
+          />
           <Link
             :href="route('dashboard')"
             class="nav-link"
@@ -29,6 +39,7 @@
             >Logout</Link
           >
         </div>
+        <!-- Guest section -->
         <div v-else class="space-x-6">
           <Link
             :href="route('register')"
@@ -46,7 +57,7 @@
       </nav>
     </header>
 
-    <main class="p-4">
+    <main class="p-4 mx-auto max-w-screen-lg">
       <slot />
     </main>
   </div>

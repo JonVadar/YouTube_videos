@@ -17,7 +17,7 @@
     input[type="search"],
     input[type="tel"],
     input[type="url"] {
-        @apply block w-full rounded-md border-0 p-2 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-500 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm;
+        @apply block w-full rounded-md border-0 p-2 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-500 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm bg-white;
     }
     label {
         @apply block text-sm font-medium leading-6 text-slate-900 first-letter:capitalize;
@@ -41,6 +41,24 @@
         @apply my-6 text-center text-3xl font-bold leading-9 text-slate-900;
     }
     .error {
-        @apply text-xs text-red-500 ;
+        @apply text-xs text-red-500;
+    }
+    table {
+        @apply w-full text-sm text-left rounded-md shadow-lg overflow-hidden mb-6 table-auto bg-white;
+    }
+    thead {
+        @apply text-xs uppercase font-medium border-b border-slate-100 text-slate-600;
+    }
+    tbody tr {
+        @apply hover:bg-slate-100 w-full p-0;
+    }
+    th {
+        @apply px-6 py-4;
+    }
+    td {
+        @apply px-6 py-4 border-b border-slate-100;
+    }
+    .avatar {
+        @apply w-8 h-8 rounded-full overflow-hidden object-center object-cover;
     }
 }
