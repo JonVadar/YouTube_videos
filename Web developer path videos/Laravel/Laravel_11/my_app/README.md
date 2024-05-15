@@ -1,3 +1,10 @@
+# Setup steps
+1. Run `composer install`
+2. Run `npm install`
+3. Create `.env` file using the `.env.example`
+4. Run `php artisan key:generate`
+5. Serve your app `php artisan serve` and `npm run dev`
+
 # You can find the full playlist here 👉 [Laravel 11 playlist](https://youtube.com/playlist?list=PL38wFHH4qYZXH8Gb7PIbmyjdsWdEJLImp&si=HEImjBm2yVYk0-G4)
 
 ## This project will be updated with the release of each video
