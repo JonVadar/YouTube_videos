@@ -16,7 +16,7 @@
     input[type="password"],
     input[type="search"],
     input[type="tel"],
-    input[type="url"] {
+    input[type="url"], textarea {
         @apply block w-full rounded-md border-0 p-2 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-500 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm bg-white;
     }
     label {
@@ -27,6 +27,9 @@
     }
     nav {
         @apply p-5 max-w-screen-lg mx-auto flex items-center justify-between;
+    }
+    main {
+        @apply max-w-screen-lg mx-auto;
     }
     .primary-btn {
         @apply flex w-full justify-center rounded-md bg-blue-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:bg-slate-400 disabled:cursor-wait;
@@ -41,7 +44,7 @@
         @apply my-6 text-center text-3xl font-bold leading-9 text-slate-900;
     }
     .error {
-        @apply text-xs text-red-500;
+        @apply text-xs text-red-500 mt-1;
     }
     table {
         @apply w-full text-sm text-left rounded-md shadow-lg overflow-hidden mb-6 table-auto bg-white;
