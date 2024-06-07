@@ -17,7 +17,7 @@ Thanks for visiting this repo 😀
 - Let's learn PHP 8 in 2023 | Part 3 | Object Oriented Programming & PDO. 👉 [Watch on YouTube](https://youtu.be/VawVMUvXVjk?si=rBhIKd1eccjktRHH)
 - Let's learn LARAVEL 10 in 2024 | Part 1 | Laravel for beginners. 👉 [Watch on YouTube](https://youtu.be/9P2w-n1fPqc?si=DNsTHS6mflrXi3g4)
 - LARAVEL 11 crash course in 2024 | playlist. 👉 [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZXH8Gb7PIbmyjdsWdEJLImp&si=9y8JCuKQV9CiFVGn)
-- Let's learn LARAVEL 11, Inertia JS and Vue JS in 2024 | playlist. 👉 [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZXCW2rlBLNdHi5cv-v_qlXO&si=sAVCBahSS4rMV9DY)
+- Let's learn LARAVEL 11, Inertia JS and Vue JS in 2024 (NO Starter Kit) | playlist. 👉 [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZXCW2rlBLNdHi5cv-v_qlXO&si=sAVCBahSS4rMV9DY)
 
 ## Series 2: Tips & Tricks
 
@@ -48,3 +48,8 @@ Thanks for visiting this repo 😀
 - REACT HOOKS Explained | useContext hook with two examples (Learn React in 2024) 👉 [Watch on YouTube](https://youtu.be/hY9K6bU-wok?si=hieQqIGeCuRmEUu1)
 - REACT HOOKS Explained | useRef hook with form examples (Learn React in 2024) 👉 [Watch on YouTube](https://youtu.be/onC5kQ8a-Xk)
 - REACT HOOKS Explained | useEffect hook (Learn React in 2024) 👉 [Watch on YouTube](https://youtu.be/a6QlalVbv_0)
+
+## Series 5: Laravel, Inertia JS, React JS
+
+- Laravel 11 with Inertia.Js and React.Js crash course in 2024 (NO Starter Kit) | playlist. 👉 [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZVOnXxcS0NMGGmUsZky6JNG&si=L2Owa1Knhryopm6_)
+
