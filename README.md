@@ -53,3 +53,9 @@ Thanks for visiting this repo 😀
 
 - Laravel 11 with Inertia.Js and React.Js crash course in 2024 (NO Starter Kit) | playlist. 👉 [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZVOnXxcS0NMGGmUsZky6JNG&si=L2Owa1Knhryopm6_)
 
+## Series 6: Laravel Sanctum API
+
+- Laravel 11 API CRUD app with Authentication using Laravel Sanctum course 2024 | Part 1/2 👉 [Watch on YouTube](https://youtu.be/LmMJB3STuU4?si=srpvgT3xI2RsWtWA)
+- Laravel 11 API CRUD app with Authentication using Laravel Sanctum course 2024 | Part 2/2 👉 [Watch on YouTube](https://youtu.be/7pCDK321ckE?si=SR4HUsqZ3qTLA04f)
+
+
