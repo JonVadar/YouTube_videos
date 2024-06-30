@@ -1,0 +1,69 @@
+/* Please note this document will be updated as time goes by. Thank you */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+@layer components {
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="url"], textarea {
+        @apply block w-full rounded-md border-0 p-2 text-slate-900 shadow-sm ring-1 ring-inset ring-slate-300 placeholder:text-slate-500 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm bg-white;
+    }
+    label {
+        @apply block text-sm font-medium leading-6 text-slate-900 first-letter:capitalize;
+    }
+    header {
+        @apply bg-slate-800 shadow-md;
+    }
+    nav {
+        @apply p-5 max-w-screen-lg mx-auto flex items-center justify-between;
+    }
+    main {
+        @apply max-w-screen-lg mx-auto;
+    }
+    .primary-btn {
+        @apply flex w-full justify-center rounded-md bg-blue-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:bg-slate-400 disabled:cursor-wait;
+    }
+    .text-link {
+        @apply font-semibold text-blue-500 hover:text-blue-600;
+    }
+    .nav-link {
+        @apply text-slate-200 hover:bg-slate-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium;
+    }
+    .title {
+        @apply my-6 text-center text-3xl font-bold leading-9 text-slate-900;
+    }
+    .error {
+        @apply text-xs text-red-500 mt-1;
+    }
+    table {
+        @apply w-full text-sm text-left rounded-md shadow-lg overflow-hidden mb-6 table-auto bg-white;
+    }
+    thead {
+        @apply text-xs uppercase font-medium border-b border-slate-100 text-slate-600;
+    }
+    tbody tr {
+        @apply hover:bg-slate-100 w-full p-0;
+    }
+    th {
+        @apply px-6 py-4;
+    }
+    td {
+        @apply px-6 py-4 border-b border-slate-100;
+    }
+    .avatar {
+        @apply w-8 h-8 rounded-full overflow-hidden object-center object-cover;
+    }
+}
