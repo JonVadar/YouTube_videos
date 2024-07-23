@@ -57,5 +57,9 @@ Thanks for visiting this repo 😀
 
 - Laravel 11 API CRUD app with Authentication using Laravel Sanctum course 2024 | Part 1/2 👉 [Watch on YouTube](https://youtu.be/LmMJB3STuU4?si=srpvgT3xI2RsWtWA)
 - Laravel 11 API CRUD app with Authentication using Laravel Sanctum course 2024 | Part 2/2 👉 [Watch on YouTube](https://youtu.be/7pCDK321ckE?si=SR4HUsqZ3qTLA04f)
+- React full-stack CRUD app with Laravel 11 API with Authentication course 2024 | Part 1/2 👉 [Watch on YouTube](https://youtu.be/Qfe7QlFFArA?si=wvHOZs2irKclXSqi)
+- React full-stack CRUD app with Laravel 11 API with Authentication course 2024 | Part 2/2 👉 [Watch on YouTube](https://youtu.be/hJvbSCCzG3w?si=hLhAQuX-zV1uc18t)
+- Vue.JS full-stack CRUD app with Laravel 11 API with Authentication course 2024 | Part 1/2 👉 [Watch on YouTube](https://youtu.be/olf35zb2YS0?si=3PXkmCdpSyZjVx72)
+- Vue.JS full-stack CRUD app with Laravel 11 API with Authentication course 2024 | Part 2/2 👉 [Watch on YouTube](https://youtu.be/e5ZfuqYuS3Q?si=AHNFslLbnlqMqOQT)
 
 
