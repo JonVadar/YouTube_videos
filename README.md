@@ -62,4 +62,6 @@ Thanks for visiting this repo 😀
 - Vue.JS full-stack CRUD app with Laravel 11 API with Authentication course 2024 | Part 1/2 👉 [Watch on YouTube](https://youtu.be/olf35zb2YS0?si=3PXkmCdpSyZjVx72)
 - Vue.JS full-stack CRUD app with Laravel 11 API with Authentication course 2024 | Part 2/2 👉 [Watch on YouTube](https://youtu.be/e5ZfuqYuS3Q?si=AHNFslLbnlqMqOQT)
 
+## TypeScript Basics
 
+- TypeScript 5.5 basics playlist. 👉 [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZXBPfRfojZqa3CKuAxYAt4V&si=QvlQCiazUsqPYdS9)
