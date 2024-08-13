@@ -1,3 +1,5 @@
+## [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZXBPfRfojZqa3CKuAxYAt4V&si=QvlQCiazUsqPYdS9)
+
 # TypeScript
 
 TypeScript is a syntactic superset of JavaScript which adds static typing.
