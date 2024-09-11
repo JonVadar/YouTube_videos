@@ -65,3 +65,7 @@ Thanks for visiting this repo 😀
 ## TypeScript Basics
 
 - TypeScript 5.5 basics playlist. 👉 [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZXBPfRfojZqa3CKuAxYAt4V&si=QvlQCiazUsqPYdS9)
+
+## Listings App with user roles, user profile, dark mode and more...
+
+- Full playlist. 👉 [Watch on YouTube](https://youtube.com/playlist?list=PL38wFHH4qYZUdIKP9jG371N3G4kbWAg2c&si=My0r-dazAiMwzWkG)
