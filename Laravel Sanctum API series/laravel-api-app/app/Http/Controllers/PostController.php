@@ -22,7 +22,7 @@ class PostController extends Controller implements HasMiddleware
      */
     public function index()
     {
-        return Post::with('user')->latest()->get();Ï
+        return Post::with('user')->latest()->get();
         // return Post::all();
     }
 
